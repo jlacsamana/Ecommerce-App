@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation("org.mongodb:mongodb-driver-sync:4.9.1")
     implementation("org.nanohttpd:nanohttpd:2.3.1")
     implementation(libs.appcompat)
     implementation(libs.material)
